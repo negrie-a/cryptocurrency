@@ -1,0 +1,24 @@
+{
+    "name": "crypto-script",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "4.16.2",
+        "extend": "3.0.1",
+        "module-alias": "^2.0.3",
+        "ws": "4.0.0"
+    },
+    "_moduleAliases": {
+        "@root"         : ".",
+        "@algorythme"   : "./algorythme",
+        "@indicator"    : "./indicator",
+        "@services"     : "./services",
+        "@class"        : "./class"
+    }
+}
